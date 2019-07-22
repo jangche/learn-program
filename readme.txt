@@ -76,3 +76,18 @@ git rm 命令用于删除一个文件。
 
 	然后用git branch命令查看当前分支。git branch命令会列出所有分支，当前分支前面会表一个*号.
 
+	git merge 命令用于合并指定分支到当前分支
+	git branch -d dev可用于删除分支
+
+
+小结
+	查看分支:git branch
+	创建分支：git branch <name>
+	切换分支：git checkout <name>
+	创建+切换分支：git checkout -b <name>
+	合并某分支到当前非分支：git merge <name>
+	删除分支:git branch -d <name>
+
+
+当Git无法自动合并分支时，需要先解决冲突。解决冲突后，再提交，合并完成。
+可用命令 git log --graph查看分支合并图。
