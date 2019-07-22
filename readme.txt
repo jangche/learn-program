@@ -22,3 +22,5 @@ Git is free software distributed under the GPL.
 若显示信息太多，可用--pretty=oneline参数查看
 
 使用git reset命令回退版本.当前版本用HEAD表示。上一个版本为HEAD^,上上个版本为HEAD^^,往上一百个版本HEAD~100
+
+test  test  test reset
