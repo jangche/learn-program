@@ -2,12 +2,7 @@ Git is a distributed version control system.
 
 Git is free software distributed under the GPL.
 
-<<<<<<< HEAD
 I love you!
-=======
-I love you!
-
->>>>>>> dev
 
 把一个文件放到Git仓库只需要两步：
 1、用命令git add 告诉git，把文件添加到仓库
@@ -97,3 +92,27 @@ git rm 命令用于删除一个文件。
 
 当Git无法自动合并分支时，需要先解决冲突。解决冲突后，再提交，合并完成。
 可用命令 git log --graph查看分支合并图。
+
+分支策略：
+	master分支应该是非常稳定的，仅用于发布新版本，平时不能在上面干活。
+
+Bug分支
+	Git提供了一个stash功能，可以将当前工作现场“储藏“起来，等以后恢复现场后继续工作。
+
+	如：需要修复一个bug时，先将当前工作储藏
+	$git stash
+	再切换至master分支上修复
+	$git checkout master
+	$git checkout -b issue-101
+	修复bug后合并至master分支
+	$git merge 
+
+	再返回工作区
+	$git checkout dev
+	恢复工作区
+	$git stash apply
+	删除保存的stash
+	$git stash drop
+
+	或者直接恢复的同时删除stash
+	$git stash pop
