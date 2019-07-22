@@ -1,4 +1,5 @@
 Git is a distributed version control system.
+
 Git is free software distributed under the GPL.
 
 
@@ -49,3 +50,7 @@ git checkout --filename
 2、文件已经添加到暂存区后，又做了修改，现在，撤销修改就回到添加到暂存区后得状态。
 
 该命令中--很重要，如没有，就变成了“切换到另一个分支”命令
+
+
+
+
