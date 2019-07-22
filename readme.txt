@@ -63,3 +63,16 @@ git checkout --filename
 
 ======================
 git rm 命令用于删除一个文件。
+
+
+分支管理
+	创建与合并分支
+	主分支叫master分支。
+	$git checkout -b dev
+	git checkout 命令加上-b参数表示创建并切换，相当于
+	$git branch dev
+	$git checkout dev
+	两条命令。
+
+	然后用git branch命令查看当前分支。git branch命令会列出所有分支，当前分支前面会表一个*号.
+
