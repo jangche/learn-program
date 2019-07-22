@@ -17,3 +17,8 @@ Git is free software distributed under the GPL.
 小结：
 	要随时掌握工作区的状态，使用git status命令
 	如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+
+使用git log命令查看提交日志。
+若显示信息太多，可用--pretty=oneline参数查看
+
+使用git reset命令回退版本.当前版本用HEAD表示。上一个版本为HEAD^,上上个版本为HEAD^^,往上一百个版本HEAD~100
