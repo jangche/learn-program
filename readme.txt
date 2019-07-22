@@ -2,7 +2,12 @@ Git is a distributed version control system.
 
 Git is free software distributed under the GPL.
 
-I love you!CICI.
+<<<<<<< HEAD
+I love you!
+=======
+I love you!
+
+>>>>>>> dev
 
 把一个文件放到Git仓库只需要两步：
 1、用命令git add 告诉git，把文件添加到仓库
