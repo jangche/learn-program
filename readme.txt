@@ -116,3 +116,6 @@ Bug分支
 
 	或者直接恢复的同时删除stash
 	$git stash pop
+
+
+bug branch test ,test test
