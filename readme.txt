@@ -1,5 +1,5 @@
 Git is a distributed version control system.
-Git is free software.
+Git is free software distributed under the GPL.
 
 
 把一个文件放到Git仓库只需要两步：
