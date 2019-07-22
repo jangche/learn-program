@@ -119,3 +119,21 @@ Bug分支
 
 
 bug branch test ,test test
+
+	删除一个没有被合并过的分支，可以通过git branch -D <name>命令删除。
+
+
+查看远程仓库信息
+	$git remote -v
+
+
+标签管理
+	创建标签
+	$git tag <name>
+	默认标签是打在最新提交的commit上的。
+	可以指定对某次commit后打标签
+	$git tag <name> <commit_id>
+
+	$git tag查看标签
+
+	$git show <tagname>查看标签信息
