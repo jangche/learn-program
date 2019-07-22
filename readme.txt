@@ -137,3 +137,10 @@ bug branch test ,test test
 	$git tag查看标签
 
 	$git show <tagname>查看标签信息
+
+
+
+使用github
+	在github上，可以任意Fork开源仓库
+	自己拥有Fork后得仓库的读写权限
+	可以推送pull request给官方仓库来贡献代码
